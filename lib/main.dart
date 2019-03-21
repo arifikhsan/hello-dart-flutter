@@ -11,10 +11,11 @@ class MyApp extends StatelessWidget {
           title: Text('EasyList'),
         ),
         body: Card(
+          color: Colors.amber,
           child: Column(
             children: <Widget>[
               Image.asset('assets/food.jpg'),
-              Text('Food Paraside')
+              Text('Food Paraside'),
             ],
           ),
         ),
