@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
           title: Text('EasyList'),
         ),
         body: Card(
-          color: Colors.amber,
+          color: Colors.blue,
           child: Column(
             children: <Widget>[
               Image.asset('assets/food.jpg'),
